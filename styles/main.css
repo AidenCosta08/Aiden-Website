@@ -1,0 +1,19 @@
+
+.wrapper {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper h1 {
+    font-size: 70px;
+}
+
+p{
+    width:410px;
+    height: 300px;
+    text-align: center;
+}
+
