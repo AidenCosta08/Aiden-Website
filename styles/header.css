@@ -1,37 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
-    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #9EB3C2;
+    background-color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
 header{
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
-    border-bottom: 1px solid #1B3B6F;
+    height: 90px;
     z-index: 1;
-    
+    margin-bottom: 40px;
+    border-bottom: solid 1px lightgrey;
+    opacity: 0.9;
 }
 
-ul{
+header h1 {
+    position: absolute;
+    left: 20px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width:50px;
+    line-height: 30px;
+    margin-right: auto;
+    margin-left: 90px;
+}
+
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+nav ul{
     list-style-type: none;
-    display: inline-flex;
+    display: flex;
     text-decoration: none;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
+    
 }
 
-li{
-    margin-right:20px;
-    margin-left: 20px;
+nav li{
+    font-family: "Montserrat", sans-serif;
+    margin: 20px 40px ;
 }
 
 a{
@@ -39,7 +72,7 @@ a{
 }
 
 a:link {
-    color: #21295C;
+    color: black;
 }
 
 a:visited {
@@ -47,11 +80,13 @@ a:visited {
 }
 
 a:hover {
-    color: #1B3B6F;
+    color: black;
 }
 
 .active {
-    color: #1B3B6F;
-
+    color: black;
 }
 
+.switch{
+    margin-right: 90px;
+}

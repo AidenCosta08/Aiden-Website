@@ -4,34 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aiden Costa</title>
+    <link rel="stylesheet" href="styles/switch.css"/>
     <link rel="stylesheet" href="styles/header.css"/>
     <link rel="stylesheet" href="styles/main.css"/>
+    <link id="dark-css" rel="stylesheet" href="styles/dark.css" disabled/>
  </head>
  <body>
     <header>
+       <h1><a href="index.html">Aiden Costa</a></h1>
+       
         <nav>
             <ul>
-                <li><a href="index.html"id="home-link">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li>Works</li>
+                <li><a href="works.html">Works</a></li>
             </ul>
         </nav>
+
+        <label class="switch" >
+            <input type="checkbox" id="dark-mode-toggle">
+            <span class="slider round"></span>
+        </label>
     </header>
-
     <main>
-        
         <div class="wrapper">
-            <h1>Aiden Costa</h1>
-            <p>
-                Hi, Im Aiden
+            <div class="intro">
+                <h1 id="firsth1">Hello There!</h1>
+                <h1 id="secondh1">👋</h1>
+                <h2>I'm Aiden Costa</h2>
+                <p>
+                    I'm a high school student 👨‍🎓 deeply interested in web development.
+                    I'm currently exploring the different areas of development to find my passion.
+                    This website is a testament to my journey in coding, showcasing the skills I've acquired and the projects I've completed. Stay tuned as I continue to delve into the captivating world of web development!  
+                </p>
+                <a href="about.html" >
+                    <button>About</button>
+                </a>
+            </div>
+            <div class="skill-set">
+                <h2>Skill Set</h2>
+                <ul>
+                    <li><img src="img/Python.png" alt="">Python</a></li>
+                    <li><img src="img/Javascript.png" alt="">Javascript</a></li>
+                    <li><img src="img/HTML.png" alt="">Html</a></li>
+                    <li><img src="img/css.png" alt="">Css</a></li>
+                    <li><img src="img/Java.png" alt="">Java</a></li>
+                </ul>
+            </div>
+            <h2>Experience</h2>
+            <div class="experience">
                 
-            </p>
-            
+                <div class="experience-card">
+                    <p>IT internship</p>
+                    <h2>Thalus.ai</h2>
+                    <p id="bld">Goa India</p>
+                    <p>June, 2024 - August, 2024</p>
+                    <p>I learned the basics of HTML, Css, JavaScript and Python, helped in the development of the Vericy AI browser extension, and created this website, enhancing the skills I learned.</p>
+                    <img src="img/VericyAi.png" alt="">
+                </div>
+                <div class="experience-card">
+                    <p>Voluneteer Position</p>
+                    <h2>Nitya Seva Niketan Orphanage</h2>
+                    <p id="bld">Rivona Goa</p>
+                    <p>June, 2024 - August, 2024</p>
+                    <p>
+                        During my time at Nitya Seva Niketan Orphanage, I conducted educational sessions in Math and English
+                        for 4th and 5th graders, provided one-on-one academic support, and enhanced their skills through games
+                        and activities. I fostered a supportive and engaging learning environment, receiving positive feedback 
+                        from students and guardians, and contributed to the orphanage's overall mission.
+                    </p>
+                </div>
+            </div>
         </div>
-        <script>
-            document.getElementById('home-link').classList.add('active');
-        </script>
     </main>
-
+    <script src="js/works.js"></script>
  </body>
  </html>

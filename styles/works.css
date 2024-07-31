@@ -1,0 +1,76 @@
+.title{
+    font-family: "Chakra Petch", sans-serif ;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.title h2{ 
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.title h1{ 
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+img{
+    object-fit: cover;
+    width: 500px; 
+    height: 350px; 
+    margin-right: 40px;
+    border: 1px lightgrey solid;
+}
+
+hr {
+    margin-bottom: 25px;
+    color: lightgrey;
+    border: none; 
+    background-color: #1B3B6F; 
+    height: 1px; 
+}
+
+.projects{
+    margin-top: 100px;
+    border: none;
+    padding: 0;
+    display: block;
+    outline: none;
+}
+
+.projects > div {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.projects > div h1{
+    margin-top: 80px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 580;
+}
+
+.projects .project-description {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects .project-description p {
+    text-align: left;
+    width: 350px;
+    font-weight: 450;
+}
+
+.projects button{
+    background-color: darkblue;
+    color: white;
+    width: 90px;
+    height: 35px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    margin-top: 20px;
+}

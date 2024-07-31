@@ -1,0 +1,15 @@
+*{
+    color: white;
+    background-color: black;
+}
+
+a:visited {
+    color: white;
+}
+.about-button{
+    background-color: rgb(39, 130, 160);
+}
+
+button{
+    background-color: rgb(39, 130, 160);
+}

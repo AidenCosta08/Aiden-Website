@@ -1,19 +1,124 @@
 
-.wrapper {
-    margin-top: 200px;
+.wrapper, .intro, .skill-set{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
-.wrapper h1 {
-    font-size: 70px;
+#firsth1{
+    margin-top: 100px;
 }
 
-p{
-    width:410px;
+#secondh1{
+    margin-bottom: 40px;
+}
+
+.wrapper .intro h1 {
+    font-size: 50px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.wrapper h2 {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px; 
+    margin-bottom: 15px;
+}
+
+.wrapper .intro p{
+    width: 660px;
     height: 300px;
-    text-align: center;
+    text-align: justify;
+    margin-bottom: -180px;
 }
 
+.intro button{
+    background-color: darkblue; 
+    color: white;
+    width: 90px;
+    height: 35px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.wrapper .skill-set h2 {
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.wrapper ul{
+    display: flex;
+    justify-content: center; 
+    padding: 0; 
+    margin: 0; 
+    list-style-type: none
+}
+
+.wrapper ul li{
+    font-size: 18px;
+    font-weight: 550;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+}
+
+.wrapper ul img{
+    display: block;
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 85px;
+
+    
+}
+
+.wrapper ul{
+    margin-bottom: 130px;
+}
+
+.experience {
+    display: flex;
+}
+
+.vericy {
+    display: block;
+}
+
+.orphanage {
+    display: block;
+}
+
+.experience {
+    display: flex;
+
+}
+
+.experience-card {
+    width: 90%;
+    max-width: 600px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 35px;
+}
+
+.experience-card p{
+    width: 90%;  
+}
+
+.experience-card img {
+    width: 80px;
+    margin-top: 10px;
+}
